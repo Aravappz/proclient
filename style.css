@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(green,blue,purple);
+  background: linear-gradient(grey,lightblue,blue);
   overflow: hidden;
   height: 100vh;
   width: 100vw;
@@ -27,15 +27,15 @@ body {
 }
 
 .icon.previous {
-  background-image: url("/previous.png");
+  background-image: url("/previous.svg");
 }
 
 .icon.next {
-  background-image: url("/next.png");
+  background-image: url("/next.svg");
 }
 
 .icon.restart {
-  background-image: url("/restart.png");
+  background-image: url("/restart.svg");
 }
 
 .titles span {
@@ -53,7 +53,7 @@ body {
   width: 90vw;
   padding: 0 5vw;
   position: fixed;
-  background-color: purple;
+  background-color: lightslategrey;
   top: 0;
   z-index: 1;
 }
